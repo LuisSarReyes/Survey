@@ -1,0 +1,77 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+ background-image: linear-gradient(to bottom right, #DF899D, #89DFCB);
+}
+
+h1 {
+  margin: 1em auto;
+  width: 50%;
+  padding-top: 25px;
+  text-align: center;
+  color: black;
+  font-size: 40px
+}
+
+p {
+  font-style: italic;
+  margin: 1em auto;
+  padding-bottom: 5px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+.survey {
+  background-image: url(https://miro.medium.com/v2/resize:fit:4800/0*l9wtMQSMohWUdzED);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 120px;
+  margin-top: auto;
+  width: 70%;
+  padding: 30px;
+  padding-left: 60px;
+  border-width: 6px;
+  border-style: solid;
+  border-image: linear-gradient(180deg, #89DFCB,#DF899D)1;
+}
+
+.name,.email,.age,.dropdown,.favorite-feature,.submit {
+  border-radius: 10px;
+  border: 1px #DF899D;
+  padding: 15px; 
+  width: 350px;
+  height: 20px; 
+}
+
+.submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  line-height: 0;
+}
+
+.name,.email,.age {
+  margin-top: 10px;
+  margin-bottom: 15px
+}
+
+.comment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  min-height: 100px;
+  min-width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 1px #DF899D;
+  padding: 15px; 
+  width: 350px;
+  height: 20px; 
+}
